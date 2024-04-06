@@ -1,0 +1,31 @@
+dataStore_root: dataStore
+
+data_ingestion:
+  root_dir: dataStore/data_ingestion
+  source_url: https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip
+  local_data_file: dataStore/data_ingestion/data.zip
+  unzip_dir: dataStore/data_ingestion
+
+data_validation:
+  root_dir: dataStore/data_validation
+  unzip_data_dir: dataStore/data_ingestion/winequality-red.csv
+  STATUS_FILE: dataStore/data_validation/status.txt
+
+data_transformation:
+  root_dir: dataStore/data_transformation
+  data_path: dataStore/data_ingestion/winequality-red.csv
+
+
+model_trainer:
+  root_dir: dataStore/model_trainer
+  train_data_path: dataStore/data_transformation/train.csv
+  test_data_path: dataStore/data_transformation/test.csv
+  model_name: model.joblib
+
+
+
+model_evaluation:
+  root_dir: dataStore/model_evaluation
+  test_data_path: dataStore/data_transformation/test.csv
+  model_path: dataStore/model_trainer/model.joblib
+  metric_file_name: dataStore/model_evaluation/metrics.json

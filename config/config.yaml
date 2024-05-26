@@ -2,7 +2,7 @@ dataStore_root: dataStore
 
 data_ingestion:
   root_dir: dataStore/data_ingestion
-  source_url: https://github.com/entbappy/Branching-tutorial/raw/master/winequality-data.zip
+  source_url: https://github.com/adyaan1989/datasetsforProjects/raw/master/winequality.zip
   local_data_file: dataStore/data_ingestion/data.zip
   unzip_dir: dataStore/data_ingestion
 

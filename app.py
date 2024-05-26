@@ -32,7 +32,15 @@ def index():
             pH =float(request.form['pH'])
             sulphates =float(request.form['sulphates'])
             alcohol =float(request.form['alcohol'])
-       
+            
+            data = [fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol]
+            data = np.array(data).reshape(1, 11)
+            
+            obj = PredictionPipeline()
+            predict = obj.predict(data)
+
+            return render_template('results.html', prediction = str(predict))
+
         except Exception as e:
             print("The exception message is: ", e)
             return "somthing is wrong"

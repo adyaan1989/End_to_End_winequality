@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Data%20Science/Git-Upload-Projects/End_to_End_winequality/mlruns/0/319b58c52b4448d6b984e7a5d6ecc33e/artifacts
+end_time: 1716698833213
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 319b58c52b4448d6b984e7a5d6ecc33e
+run_name: welcoming-bug-804
+run_uuid: 319b58c52b4448d6b984e7a5d6ecc33e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716698829326
+status: 3
+tags: []
+user_id: shanusingh

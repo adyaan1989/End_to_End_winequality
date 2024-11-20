@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/ML%20Project%20Backup/Data%20Science/Git-Upload-Projects/End_to_End_winequality/mlruns/0/e08a8767dc36420fbdf2be5ad2aa7511/artifacts
+end_time: 1723688173343
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e08a8767dc36420fbdf2be5ad2aa7511
+run_name: burly-ox-973
+run_uuid: e08a8767dc36420fbdf2be5ad2aa7511
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723688166247
+status: 3
+tags: []
+user_id: kavya

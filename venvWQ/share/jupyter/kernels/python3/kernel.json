@@ -1,6 +1,6 @@
 {
  "argv": [
-  "D:/Data Science/Git-Upload-Projects/End_to_End_winequality/venvWQ\\python.exe",
+  "python",
   "-m",
   "ipykernel_launcher",
   "-f",
